@@ -1,6 +1,6 @@
-# A/D conversion using PCF8591
+﻿# A/D conversion using PCF8591
 
-AT89C51 sends and receives data with PCF8591 through I2C protocol, and displays digital quantity through 4×16 LCD.
+AT89C52 sends and receives data with PCF8591 through I2C protocol, and displays digital quantity through 4×16 LCD.
 
 ## Pin connection
 PCF8591
@@ -15,5 +15,5 @@ PCF8591
 | A2 | GND | Address bit |
 | AGND | GND | Analog signal ground |
 | VREF | 5V | D/A conversion reference voltage |
-| SCL | C51-P2.1 | I2C Clock(I2C2) |
-| SDA | C51-P2.0 | I2C Data(I2C2) |
+| SCL | C52-P2.1 | I2C Clock(I2C2) |
+| SDA | C52-P2.0 | I2C Data(I2C2) |
