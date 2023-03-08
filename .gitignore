@@ -39,11 +39,17 @@
 # Debug files
 
 *.dSYM/
+
 *.su
+
 *.idb
+
 *.pdb
 
+
+
 # Kernel Module Compile Results
+
 *.mod*
 *.cmd
 .tmp_versions/
@@ -54,7 +60,9 @@ dkms.conf
 
 *.jpg
 *.pdf
+
 *.uvguix.*
+
 *.uvoptx
 JLinkLog.txt
 */MDK-ARM/Obj/*
@@ -63,3 +71,6 @@ JLinkLog.txt
 *.lst
 *.lnp
 *.M51
+*.uvgui.*
+*.uvopt
+
