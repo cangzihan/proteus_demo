@@ -45,7 +45,7 @@
             <InvalidFlash>1</InvalidFlash>
           </TargetStatus>
           <OutputDirectory>.\</OutputDirectory>
-          <OutputName>PCF8591_LCD4</OutputName>
+          <OutputName>LCD4</OutputName>
           <CreateExecutable>1</CreateExecutable>
           <CreateLib>0</CreateLib>
           <CreateHexFile>1</CreateHexFile>
@@ -380,6 +380,11 @@
               <FileName>I2C.c</FileName>
               <FileType>1</FileType>
               <FilePath>.\hardware\I2C.c</FilePath>
+            </File>
+            <File>
+              <FileName>key.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\hardware\key.c</FilePath>
             </File>
           </Files>
         </Group>
