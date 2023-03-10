@@ -12,7 +12,7 @@ void main()
 {
 	LCD_Init(LCD12864);                  // Initial LCD
 	disp_cn(5,56,&font_base[0][0]);      // Display Database Font
-    LCD_ShowString(28, 2, 16, "LCD12864");      // Display String
+	LCD_ShowString(28, 2, 16, "LCD12864");      // Display String
   
 	while(1)
 	{

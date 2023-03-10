@@ -378,11 +378,6 @@
               <FileType>1</FileType>
               <FilePath>.\hardware\LCD1602.c</FilePath>
             </File>
-            <File>
-              <FileName>I2C.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>.\hardware\I2C.c</FilePath>
-            </File>
           </Files>
         </Group>
       </Groups>
