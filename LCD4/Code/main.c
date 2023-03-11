@@ -6,13 +6,13 @@
 void main()
 {
 	LCD_Init();
-	gotoxy(1,6);
+	gotoxy(1,6);     // Set cursor position
 	LCD_Write_String("Github");
-	gotoxy(2,5);
+	gotoxy(2,5);     // Set cursor position
 	LCD_Write_String("cangzihan");
-	gotoxy(3,4);
+	gotoxy(3,4);     // Set cursor position
 	LCD_Write_String("-----------");
-	gotoxy(4,5);
+	gotoxy(4,5);     // Set cursor position
 	LCD_Write_String("LCD4 Demo");
   
 	while(1)

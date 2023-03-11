@@ -7,10 +7,10 @@ void main()
 {
 	uchar bai,shi,ge,ADdate;
 	LCD_Init();
-	gotoxy(1,3);
-	LCD_Write_String("PCF8591 test"); //第一行第一列开始写
-	gotoxy(2,1);
-	LCD_Write_String("Ain0:"); //第一行第一列开始写
+	gotoxy(1,3);     // Set cursor position 第1行第3列开始写
+	LCD_Write_String("PCF8591 test");
+	gotoxy(2,1);     // Set cursor position
+	LCD_Write_String("Ain0:");
   
 	while(1)
 	{
@@ -22,7 +22,7 @@ void main()
 		shi=ADdate%100/10;
 		ge=ADdate%10;
 		
-		gotoxy(2,6);
+		gotoxy(2,6);     // Set cursor position
 		LCD_Write_Data(bai+0x30);
 		LCD_Write_Data(shi+0x30);
 		LCD_Write_Data(ge+0x30);
