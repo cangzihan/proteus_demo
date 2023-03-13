@@ -3,7 +3,7 @@
 
 ## Usage
 To use these example circuits, you need to have Proteus installed on your computer. 
-You can open the corresponding .pdsprj file in Proteus, which contains the complete project with schematic, PCB layout, and simulation settings. 
+You can open the corresponding `.pdsprj` file in Proteus 8.9, which contains the complete project with schematic, PCB layout, and simulation settings. 
 You can simulate the circuit by running the simulation in Proteus.
 
 ## Note
