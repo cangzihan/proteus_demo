@@ -38,7 +38,7 @@ void main()
       {
           send_byte = key;
           gotoxy(2,6);
-          LCD_Write_DATA(send_byte+'0');\
+          LCD_Write_DATA(send_byte+'0');
           UART_Send_Byte(send_byte);
       }
       if(rcv_flag)
